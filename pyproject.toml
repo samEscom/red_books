@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "red-books"
+version = "0.1.0"
+description = ""
+authors = ["Samuel Chavez <sa5m.escom@gmail.com>"]
+readme = "README.md"
+packages = [{include = "red_books"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.2"
+graphene-django = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
